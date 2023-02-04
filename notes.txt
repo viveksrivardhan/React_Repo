@@ -1,0 +1,76 @@
+// window //document //html //body// element based hierarcy
+
+// ReactJS - Facebook developed 
+
+what is ReactJS?
+FrontEnd js library
+React offers component based code writing.
+React has a virtual DOM
+This helps react to speed up making and updating your webpage
+
+React - JSX language => Javascript xml => js+html
+Compiler : Babel => convert jsx => to simple html and js seperately so that the browser can understand
+
+npx create-react-app test - to create react app
+
+import logo from "./logo.svg";
+import "./App.css";
+import { Component } from "react";
+
+function App() {
+  let a = "abcd";
+  let b = 10;
+  return (
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
+
+    <div>
+      <h3> This is a React Class: {a}</h3>
+      <h2>Hi, This is H2</h2>
+    </div>
+  );
+}
+
+export default App;
+
+// jsx
+// Component: functional Component
+// react: functional Component and class Component
+// no class component only functional component in react
+// in react we must have self closing tags
+// if we need to use any variables inside the html code we need to make use of curly braces in the tags like <p>Hi, there {a}</p>
+
+
+// Questions:
+// what is the work of virtual dom in react
+// what is component in react?
+// what is functional component?
+// what is babel? it is the Compiler, convert jsx => to simple html and js seperately so that the browser can understand
+// what is jsx? Javascript xml => Javascript+ html 
+// How to get js values inside html tags?
+// How to create your own custom component?
+// what is react fragment?
+// why do you write import react from react?
+
+// Notes: app.js is parent for rendering all your customer component
+
+// what is use of export default?
+// export default allows only one kind of function to be export by this method.
+//it basically allows us to keep only single logic in a single file
+
+
+
